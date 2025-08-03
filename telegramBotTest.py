@@ -4,6 +4,8 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 import requests
 import ast
 from pathlib import Path
+import os
+os.system("pip install python-telegram-bot")
 
 script_dir = Path(__file__).parent
 
