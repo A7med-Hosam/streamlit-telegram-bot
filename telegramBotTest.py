@@ -4,12 +4,11 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 import requests
 import ast
 from pathlib import Path
-import os
-os.system("pip install python-telegram-bot")
+
 
 script_dir = Path(__file__).parent
 
-TOKEN: Final = '8404304994:AAEGBSKNwtZsxHxZaU2pxkTPdFttL9VF4qI'
+TOKEN: Final = '8402834860:AAEscTZBvCGSC0G1s495m96DIlZDokW8Z9M'
 BOT_USERNAME: Final = '@notion_trading_dashboard_bot'
 
 
